@@ -1,0 +1,36 @@
+- Create a folder/directory
+mkdir [directory_name]
+
+- Delete a folder/directory
+rmdir [directory_name]
+
+- Clear the terminal
+clear
+
+- Print/Present working directory
+pwd
+
+- List all of the files and folders
+ls
+
+- Change directory
+cd [directory_name]
+
+- Go back to the parent folder
+cd ..
+
+- Create a file
+touch [file name.extension]
+
+- Delete a file
+rm [file name.extension]
+
+git init
+
+git config --global user.name "username"
+
+git config user.name
+
+git config --global user.email "email"
+git config user.email
+
