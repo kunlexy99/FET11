@@ -1,0 +1,58 @@
+- Configuring Git
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name
+git config user.email
+
+- Initialize a Repository
+git init
+
+- Check the status of all of our files and folders
+git status
+
+- GIT 3 STAGE
+- Add all of the files that have been modified to the staging area
+git add .
+
+- Create a commit
+git commit -m "This is the description."
+
+- Check the history
+git log 
+git log --oneline
+
+- BRANCHING
+
+- List all of the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git switch [branch-name]
+git checkout [branch-name]
+
+- MERGING
+
+- Merge a branch
+git merge [branch-name]
+
+- Delete a branch
+git branch -d [branch-name]
+- REMOTE REPOSITORY
+
+- Add a remote to the local repository
+git remote add origin [repository-url]
+
+- Check if the local and remote is connected
+git remote -v
+
+- Set the master to main
+git branch -M main
+
+- Push the code from the local to remote for the first time
+git push -u origin main
+
+- Push the code from the local to remote
+git push
